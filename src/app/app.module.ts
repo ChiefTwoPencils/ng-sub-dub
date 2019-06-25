@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { FancyTextComponent } from './fancy-text/fancy-text.component';
 import { FancyCheckbox } from './fancy-checkbox/fancy-checkbox.component';
+import { SubscriptionFormComponent } from './subscription-form/subscription-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FancyTextComponent,
-    FancyCheckbox
+    FancyCheckbox,
+    SubscriptionFormComponent
   ],
   imports: [
     BrowserModule
