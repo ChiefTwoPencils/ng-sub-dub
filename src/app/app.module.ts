@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { FancyTextComponent } from './fancy-text/fancy-text.component';
+import { FancyCheckbox } from './fancy-checkbox/fancy-checkbox.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FancyTextComponent
+    FancyTextComponent,
+    FancyCheckbox
   ],
   imports: [
     BrowserModule
