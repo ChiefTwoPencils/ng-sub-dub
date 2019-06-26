@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { FancyTextComponent } from './fancy-text/fancy-text.component';
 import { FancyCheckbox } from './fancy-checkbox/fancy-checkbox.component';
 import { SubscriptionFormComponent } from './subscription-form/subscription-form.component';
+import { PlayerSubscribeComponent } from './player-subscribe/player-subscribe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FancyTextComponent,
     FancyCheckbox,
-    SubscriptionFormComponent
+    SubscriptionFormComponent,
+    PlayerSubscribeComponent
   ],
   imports: [
     BrowserModule

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-subscription-form',
@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SubscriptionFormComponent implements OnInit {
 
+  @Input() interests: [string];
   constructor() { }
 
   ngOnInit() {
